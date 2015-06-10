@@ -1,5 +1,8 @@
 Ring Informal SDK Sample
 ===
+
+日本語説明は[こちら](https://github.com/hisanaka/RingInformalSDKSample/blob/master/README.ja.md)
+
 # Overview
 
 This project has contained the sample Android application that uses the Ring Informal SDK.
