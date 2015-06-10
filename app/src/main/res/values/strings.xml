@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">RingInformalSDKSample</string>
+
+    <string name="title_section1">Read Info/Notice</string>
+    <string name="title_section2">Gesture Register</string>
+    <string name="title_section3">Gesture Detect</string>
+    <string name="title_section4">Gesture Manager</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="connect_label">Connect</string>
+    <string name="disconnect_label">Disconnect</string>
+    <string name="manufacture_label">Manufacture Name</string>
+    <string name="vibration_label">Vibration</string>
+
+    <string name="progress_label" translatable="false">loading&#8230;</string>
+
+    <string name="hold_sensor_label">Hold Touch Sensor until this message disappears.</string>
+
+    <string name="connection_failed">Connection failed: %1$s</string>
+
+    <string name="matching_result">ID: %1$d\nMatching Rate: %2$f\nTitle: %3$s</string>
+    <string name="register_result_label">ID: %1$d</string>
+
+    <string name="capture_label">Capture</string>
+    <string name="register_label">Register</string>
+    <string name="cancel_label">Cancel</string>
+    <string name="yes_label">Yes</string>
+    <string name="no_label">No</string>
+    <string name="title_label">Title</string>
+
+    <string name="gesture_id_key">gesture_id</string>
+
+    <string name="confirm_remove">Remove this gesture.\nAre you sure?</string>
+</resources>

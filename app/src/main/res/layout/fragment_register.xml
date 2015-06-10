@@ -1,0 +1,90 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity$PlaceholderFragment">
+
+    <Button
+        android:id="@+id/connect_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:text="@string/connect_label"/>
+
+    <Button
+        android:id="@+id/capture_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/connect_button"
+        android:text="@string/capture_label"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/capture_button"
+        android:padding="8dp"
+        android:background="@drawable/border" >
+
+        <TextView
+            android:id="@+id/result_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="RESULT"/>
+
+        <LinearLayout
+            android:id="@+id/entry_area"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_alignParentBottom="true"
+            android:weightSum="2">
+
+            <Button
+                android:id="@+id/register_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/register_label"
+                android:layout_weight="1"/>
+
+            <Button
+                android:id="@+id/cancel_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/cancel_label"
+                android:layout_weight="1"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/title_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/entry_area"
+            android:textSize="22dp"
+            android:text="@string/title_label"/>
+
+        <EditText
+            android:id="@+id/title_edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8sp"
+            android:layout_above="@id/entry_area"
+            android:layout_toRightOf="@id/title_label"
+            android:textSize="22dp" />
+
+        <ImageView
+            android:id="@+id/gesture_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/result_view"
+            android:layout_above="@id/title_edit"
+            android:scaleType="center"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>
